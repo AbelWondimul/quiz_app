@@ -1,59 +1,61 @@
 import 'package:quiz_app/screens/quiz_question.dart';
+
 //To do :
-//   In this file, write a list of QuizQuestion about blue lock 
+//   In this file, write a list of QuizQuestion about blue lock
 const questions = [
   QuizQuestion(
-    'Question1',
+    'What is the primary goal of the Blue Lock project?',
     [
-      'Answer',
-      'option1',
-      'option2',
-      'option3',
+      'To find the worlds best striker',
+      'to create the best midfielder in the world',
+      'to defelop the worlds greatest defender',
+      'to produce the ultimate goalkeeper',
     ],
-  ),
-  QuizQuestion('Question2', [
-    'Answer',
-    'option1',
-    'option2',
-    'option3',
-  ]),
-  QuizQuestion(
-    'Question3',
-    [
-      'Answer',
-      'option1',
-      'option2',
-      'option3',
-    ],
-   
+    'assets/images/bluelock.png',
   ),
   QuizQuestion(
-    'Question4',
-    [
-      'Answer',
-      'option1',
-      'option2',
-      'option3',
-    ],
-    
-  ),
+      'What position does Yoichi Isagi aim to become the best at',
+      [
+        'Striker',
+        'Midfielder',
+        'Defender',
+        'Goalkeeper',
+      ],
+      'assets/images/isagi.png'),
   QuizQuestion(
-    'Question5',
-    [
-      'Answer',
-      'option1',
-      'option2',
-      'option3',
-    ],
-   
-  ),
+      'Which character is known for their incredible speed?',
+      [
+        'Hyoma Chigiri',
+        'Shoei Barou',
+        'Meguru Bachira',
+        'Yoichi Isagi',
+      ],
+      'assets/images/chigiri.jpg'),
   QuizQuestion(
-    'Question6',
-    [
-      'Answer',
-      'option1',
-      'option2',
-      'option3',
-    ],
-  ),
+      'Who is known as The King',
+      [
+        'Shoei Barou',
+        'Meguru Bachira',
+        'Isagi Yoichi',
+        'Jinpachi Ego',
+      ],
+      'assets/images/barou.png'),
+  QuizQuestion(
+      'Why does Hyoma Chigiri initially hesitiate to play aggressively?',
+      [
+        'Because of his injury',
+        'lacks confidence',
+        'doesnt like soccer',
+        'afraid of losing',
+      ],
+      'assets/images/chigiri.jpg'),
+  QuizQuestion(
+      'What skill does Bachira rely on the most?',
+      [
+        'Dribbling and creativity',
+        'Speed and endurance',
+        'Powerful shots',
+        'Defensive tackles',
+      ],
+      'assets/images/bachira.jpg'),
 ];
