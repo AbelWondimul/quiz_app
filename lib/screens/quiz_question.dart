@@ -9,5 +9,6 @@ class QuizQuestion {
     final shuffledList = List.of(answers);
     shuffledList.shuffle();
     return shuffledList;
+    
   }
 }
